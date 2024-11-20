@@ -1,0 +1,8 @@
+main {
+  background: url(../assets/image/Banner.png) no-repeat;
+  background-size: cover;
+  padding-block: 80px;
+}
+.introduction-cont h1 {
+  max-width: 10ch;
+}
