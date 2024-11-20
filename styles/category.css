@@ -1,0 +1,37 @@
+.items-category {
+  grid-template-areas: 
+  'roupas roupas decoracao'
+  'canecas aces aces';
+  div {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  h5 {
+    text-align: center;
+    padding-block: 16px;
+  }
+}
+.items-category div:nth-child(1) {
+  grid-area: roupas;
+}
+.items-category div:nth-child(2) {
+  grid-area: decoracao;
+}
+.items-category div:nth-child(3) {
+  grid-area: canecas;
+}
+.items-category div:nth-child(4) {
+  grid-area: aces;
+}

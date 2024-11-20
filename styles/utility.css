@@ -23,6 +23,9 @@
 .text-780BF7 {
   color: #780BF7;
 }
+.text-0B254B {
+  color: #0B254B;
+}
 
 /* Tipografia */
 .h1 {
@@ -64,8 +67,14 @@
 .justify-content-between {
   justify-content: space-between;
 }
+.justify-content-center {
+  justify-content: center;
+}
 .align-items-center {
   align-items: center;
+}
+.gap-24 {
+  gap: 24px;
 }
 .gap-40 {
   gap: 40px;
@@ -76,8 +85,14 @@
 .gap-56 {
   gap: 56px;
 }
+.gap-80 {
+  gap: 80px;
+}
 .pb-24 {
   padding-block: 24px;
+}
+.m-block {
+  margin-block: 80px;
 }
 
 .grid {

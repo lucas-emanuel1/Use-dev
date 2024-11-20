@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="container flex justify-content-between pb-24">
+  <header id="header" class="container flex justify-content-between pb-24">
     <div class="logo">
       <svg width="80" height="48" viewBox="0 0 80 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M52.1203 33.0803C52.1203 33.7999 51.9937 34.5796 51.7405 35.4192C51.4873 36.2455 51.0741 37.0184 50.5011 37.7381C49.9413 38.4445 49.2017 39.0375 48.2821 39.5173C47.3758 39.9971 46.2697 40.237 44.9636 40.237H35.588V35.2992H44.9636C45.67 35.2992 46.2164 35.086 46.6029 34.6595C46.9893 34.2197 47.1826 33.68 47.1826 33.0403C47.1826 32.3606 46.9627 31.8275 46.5229 31.441C46.0964 31.0545 45.5767 30.8613 44.9636 30.8613H35.588C34.8816 30.8613 34.3352 31.0812 33.9487 31.521C33.5622 31.9475 33.369 32.4805 33.369 33.1203V40.3769C33.369 41.0699 33.5822 41.6097 34.0087 41.9961C34.4485 42.3826 34.9882 42.5759 35.6279 42.5759H50.6499V47.5336H35.588C34.8683 47.5336 34.0887 47.407 33.249 47.1538C32.4228 46.9005 31.6498 46.4941 30.9301 45.9343C30.2238 45.3613 29.6307 44.6216 29.1509 43.7153C28.6712 42.7958 28.4313 41.683 28.4313 40.3769V33.0803C28.4313 32.3606 28.5579 31.5876 28.8111 30.7613C29.0643 29.9217 29.4708 29.1488 30.0305 28.4424C30.6036 27.7228 31.3433 27.123 32.2495 26.6433C33.1691 26.1635 34.2819 25.9236 35.588 25.9236H44.9636C45.6833 25.9236 46.4563 26.0502 47.2825 26.3034C48.1222 26.5566 48.8951 26.9698 49.6015 27.5428C50.3211 28.1026 50.9209 28.8422 51.4006 29.7618C51.8804 30.6681 52.1203 31.7742 52.1203 33.0803Z" fill="#090129"/>
@@ -49,7 +49,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <div class="container grid grid-template-col-2 align-items-center gap-56">
       <div class="introduction-img">
         <img src="assets/image/Imagem Hero.png" alt="Hero imagem mulher com roupa da UseDev">
@@ -61,5 +61,38 @@
       </div>
     </div>
   </main>
+
+  <aside id="category" class="container flex flex-flow-col gap-80 m-block">
+    <div class="title-category flex justify-content-center">
+      <h4 class="h4 text-0B254B">Categorias</h4>
+    </div>
+
+    <div class="items-category text-0B254B h5 grid gap-24">
+      <div class="item-category">
+        <div class="zoom-img">
+          <img src="assets/image/Categorias - Roupas.png" alt="Camisas da UseDev">
+        </div>
+        <h5>Roupas</h5>
+      </div>
+      <div class="item-category">
+        <div class="zoom-img">
+          <img src="assets/image/Categoria Decoração.png" alt="Decoração da UseDev">
+        </div>
+        <h5>Decoração</h5>
+      </div>
+      <div class="item-category">
+        <div class="zoom-img">
+          <img src="assets/image/Categoria Canecas.png" alt="Canecas da UseDev">
+        </div>
+        <h5>Canecas</h5>
+      </div>
+      <div class="item-category">
+        <div class="zoom-img">
+          <img src="assets/image/Categoria Acessórios.png" alt="Acessórios da UseDev">
+        </div>
+        <h5>Acessórios</h5>
+      </div>
+    </div>
+  </aside>
 </body>
 </html>
