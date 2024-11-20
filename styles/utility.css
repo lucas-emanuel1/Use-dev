@@ -73,8 +73,14 @@
 .align-items-center {
   align-items: center;
 }
+.gap-16 {
+  gap: 16px;
+}
 .gap-24 {
   gap: 24px;
+}
+.gap-32 {
+  gap: 32px;
 }
 .gap-40 {
   gap: 40px;
@@ -104,8 +110,6 @@
 .grid-template-col-4 {
   grid-template-columns: repeat(4, 1fr);
 }
-
-
 
 .btn-primary {
   display: inline-block;

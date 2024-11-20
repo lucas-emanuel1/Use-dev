@@ -1,0 +1,18 @@
+#subscribe {
+  background: #8FFF24;
+  padding-block: 40px;
+  .subscribe-input {
+    width: 648px;
+    input {
+    width: 100%;
+    padding: 20px 24px;
+    background: transparent;
+    border: 2px solid #090129;
+    border-radius: 32px;
+    }
+    ::-webkit-input-placeholder {
+      font: normal 20px/120% "Poppins";
+      color: #090129;
+    }
+  }
+}
