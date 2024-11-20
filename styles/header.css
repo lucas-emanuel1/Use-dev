@@ -1,0 +1,23 @@
+header > div:nth-child(2) .header-input {
+  position: relative;
+  width: 648px;
+  input {
+    width: 100%;
+    padding: 20px 24px;
+    background: #EFEFEF;
+    border: none;
+    border-radius: 32px;
+  }
+  svg {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+header > div:nth-child(2) .header-input input::-webkit-input-placeholder {
+  font: normal 20px/120% "Poppins";
+}
+header svg {
+  cursor: pointer;
+}
