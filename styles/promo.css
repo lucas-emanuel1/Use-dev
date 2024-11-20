@@ -1,0 +1,11 @@
+.promo-item {
+  background: #FFFFFF;
+  cursor: pointer;
+  p {
+    font-size: 20px;
+  }
+}
+.info-promo {
+  padding: 16px 24px;
+  background: #EFEFEF;
+}

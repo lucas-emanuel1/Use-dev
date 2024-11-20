@@ -92,7 +92,7 @@
   padding-block: 24px;
 }
 .m-block {
-  margin-block: 80px;
+  margin-block: 120px;
 }
 
 .grid {
@@ -100,6 +100,9 @@
 }
 .grid-template-col-2 {
   grid-template-columns: repeat(2, 1fr);
+}
+.grid-template-col-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 
