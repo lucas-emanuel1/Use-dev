@@ -1,0 +1,16 @@
+#footer {
+  background: #090129;
+}
+.footer-party1 {
+  flex-wrap: wrap;
+  flex: 1;
+  padding-block: 40px;
+}
+.footer-party2 {
+  padding-block: 40px;
+}
+.footer-paragraphy {
+  background: #EFEFEF;
+  text-align: center;
+  padding-block: 34px;
+}
