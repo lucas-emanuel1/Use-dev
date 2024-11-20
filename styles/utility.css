@@ -20,3 +20,29 @@
 .text-780BF7 {
   color: #780BF7;
 }
+
+/* Tipografia */
+.h1 {
+  font: bold 76px/120% "Orbitron";
+}
+.h4 {
+  font: bold 39px/120% "Orbitron";
+}
+.h5 {
+  font: bold 34px/120% "Orbitron";
+}
+.h6 {
+  font: bold 25px/120% "Orbitron";
+}
+.heading-semibold {
+  font: 600 31px/150% "Poppins";
+}
+.body {
+  font: normal 16px/120% "Poppins";
+}
+.body-large {
+  font: normal 20px/120% "Poppins";
+}
+.body-large-bold {
+  font: bold 20px/120% "Poppins";
+}
