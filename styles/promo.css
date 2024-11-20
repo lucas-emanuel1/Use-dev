@@ -9,3 +9,12 @@
   padding: 16px 24px;
   background: #EFEFEF;
 }
+
+.see-more {
+  text-align: end;
+  text-decoration: underline #780BF7;
+}
+.see-more a:hover {
+  color: #430091;
+  text-decoration: underline #430091;
+}
